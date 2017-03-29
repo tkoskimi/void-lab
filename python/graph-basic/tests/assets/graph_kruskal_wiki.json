@@ -1,0 +1,75 @@
+{
+    "graph": {
+        "type": "Kruskal's algorithm",
+        "label": "Kruskal's algorithm",
+        "nodes": [
+            {
+                "id": "a",
+                "label": "a"
+            },
+            {
+                "id": "b",
+                "label": "b"
+            },
+            {
+                "id": "c",
+                "label": "c"
+            },
+            {
+                "id": "d",
+                "label": "d"
+            },
+            {
+                "id": "e",
+                "label": "e"
+            }
+        ],
+        "edges": [
+            {
+                "source": "a",
+                "target": "b",
+                "directed": false,
+                "metadata": { "value": 3 }
+            },
+            {
+                "source": "a",
+                "target": "e",
+                "directed": false,
+                "metadata": { "value": 1 }
+            },
+            {
+                "source": "b",
+                "target": "c",
+                "directed": false,
+                "metadata": { "value": 5 }
+            },
+            {
+                "source": "b",
+                "target": "e",
+                "directed": false,
+                "metadata": { "value": 4 }
+            },
+            {
+                "source": "c",
+                "target": "d",
+                "directed": false,
+                "metadata": { "value": 2 }
+            },
+            {
+                "source": "c",
+                "target": "e",
+                "directed": false,
+                "metadata": { "value": 6 }
+            },
+            {
+                "source": "d",
+                "target": "e",
+                "directed": false,
+                "metadata": { "value": 7 }
+            }
+       ],
+        "metadata": {
+            "Reference": "https://en.wikipedia.org/wiki/Kruskal%27s_algorithm"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+graph_basics.egg-info/
+build/
+dist/
+tests/__pycache__/
+.cache/
+.eggs/
+.DS_Store
+env/
