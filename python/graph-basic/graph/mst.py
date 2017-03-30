@@ -21,7 +21,12 @@ vertex, where the total weight of all the edges in the tree is minimized.
 
 Todos
 -----
-1. The implementation is tightly bound to the implementation of the JSON graph.
+1. The implementation is tightly bound to the implementation of the JSON graph
+
+Known Issues
+------------
+1. It does not return a forest for the non-connected graphs
+2. It does not understand directed graphs, but handles them similarly as undirected ones
 """
 from __future__ import absolute_import, division, print_function, unicode_literals
 from .UnionFind import UnionFind
